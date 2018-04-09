@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Billing</title>
+</head>
+<body>
+  
+<img src="already.png" alt="Mountain View" width="650" height="345">
+<img id="recommend" src="recommend" style="display:none;" />
+<!-- <h1 id="head" align="middle">Billing Counter</h1>
+<h3 align="middle">Realtime Addition of data to firebase</h3>
+<textarea rows="20" cols="160" id="text" placeholder="Enter customer's purchased list"></textarea> -->
+<!-- <input placeholder="Enter customer's purchased list" size="500"> -->
+
+<button class="button" onclick="myclick()">Click To See Recommendations</button>
+
+<!-- <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBCIZiCdVmD22OaEzwvmMifRbvx-3zmlxY",
+    authDomain: "ishita-b18d9.firebaseapp.com",
+    databaseURL: "https://ishita-b18d9.firebaseio.com",
+    projectId: "ishita-b18d9",
+    storageBucket: "ishita-b18d9.appspot.com",
+    messagingSenderId: "1059930655871"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="index.js"></script> -->
+ <script>
+function myclick()
+{
+  var pic = "recommend.png"
+  document.getElementById('recommend').src = pic.replace('90x90', '225x225');
+  document.getElementById('recommend').style.display='block';
+}
+// </script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<style>
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*textarea{
+  font-size:1em;
+}*/
+</style>
+
+
+</body>
+</html>
